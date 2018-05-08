@@ -1,4 +1,30 @@
 {
-  "name": "Backend projet x",
+  "name": "chat-react-backend",
   "version": "1.0.0",
+  "description": "Projet javascript - M - JavaScript Full Stack Development - Backend",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "pusher": "^1.5.1",
+    "pusher-js": "^4.2.2",
+    "style-loader": "^0.21.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sulmanbashir/chat-react-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sulmanbashir/chat-react-backend/issues"
+  },
+  "homepage": "https://github.com/sulmanbashir/chat-react-backend#readme"
 }
