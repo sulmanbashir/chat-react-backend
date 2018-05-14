@@ -21,6 +21,9 @@ const pusher = new Pusher({
 
 app.set('PORT', process.env.PORT || 5000);
 
+app.get('/', function(req, res){
+console.log("HOMEPAGE");
+});
 
 app.post('/message', (req, res) => {
 	const payload = req.body;
