@@ -28,7 +28,7 @@ res.sendFile(__dirname+'/index.html')
 
 app.post('/message', (req, res) => {
 	const payload = req.body;
-	pusher.trigger('chat', 'message', payload);
+	pusher.trigger(payload.channel, 'message', payload);
 	res.send(payload)
     });
 
